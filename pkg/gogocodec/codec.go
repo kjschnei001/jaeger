@@ -24,8 +24,8 @@ import (
 )
 
 const (
-	jaegerProtoGenPkgPath = "github.com/jaegertracing/jaeger/proto-gen"
-	jaegerModelPkgPath    = "github.com/jaegertracing/jaeger/model"
+	jaegerProtoGenPkgPath = "github.com/kjschnei001/jaeger/proto-gen"
+	jaegerModelPkgPath    = "github.com/kjschnei001/jaeger/model"
 )
 
 var defaultCodec encoding.Codec

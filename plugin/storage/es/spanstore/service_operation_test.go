@@ -24,9 +24,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jaegertracing/jaeger/pkg/es/mocks"
-	"github.com/jaegertracing/jaeger/plugin/storage/es/spanstore/dbmodel"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/kjschnei001/jaeger/pkg/es/mocks"
+	"github.com/kjschnei001/jaeger/plugin/storage/es/spanstore/dbmodel"
+	"github.com/kjschnei001/jaeger/storage/spanstore"
 )
 
 func TestWriteService(t *testing.T) {

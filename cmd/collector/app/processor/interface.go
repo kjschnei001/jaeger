@@ -18,7 +18,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/kjschnei001/jaeger/model"
 )
 
 // ErrBusy signalizes that processor cannot process incoming data

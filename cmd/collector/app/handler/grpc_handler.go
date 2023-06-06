@@ -23,10 +23,10 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/processor"
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/pkg/tenancy"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/processor"
+	"github.com/kjschnei001/jaeger/model"
+	"github.com/kjschnei001/jaeger/pkg/tenancy"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2"
 )
 
 // GRPCHandler implements gRPC CollectorService.

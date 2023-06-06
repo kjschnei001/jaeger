@@ -33,16 +33,16 @@ import (
 	"google.golang.org/grpc/health/grpc_health_v1"
 	"google.golang.org/grpc/reflection"
 
-	"github.com/jaegertracing/jaeger/cmd/query/app/apiv3"
-	"github.com/jaegertracing/jaeger/cmd/query/app/querysvc"
-	"github.com/jaegertracing/jaeger/pkg/bearertoken"
-	"github.com/jaegertracing/jaeger/pkg/healthcheck"
-	"github.com/jaegertracing/jaeger/pkg/netutils"
-	"github.com/jaegertracing/jaeger/pkg/recoveryhandler"
-	"github.com/jaegertracing/jaeger/pkg/tenancy"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2/metrics"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v3"
+	"github.com/kjschnei001/jaeger/cmd/query/app/apiv3"
+	"github.com/kjschnei001/jaeger/cmd/query/app/querysvc"
+	"github.com/kjschnei001/jaeger/pkg/bearertoken"
+	"github.com/kjschnei001/jaeger/pkg/healthcheck"
+	"github.com/kjschnei001/jaeger/pkg/netutils"
+	"github.com/kjschnei001/jaeger/pkg/recoveryhandler"
+	"github.com/kjschnei001/jaeger/pkg/tenancy"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2/metrics"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v3"
 )
 
 // Server runs HTTP, Mux and a grpc server

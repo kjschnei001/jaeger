@@ -34,12 +34,12 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zapgrpc"
 
-	"github.com/jaegertracing/jaeger/pkg/bearertoken"
-	"github.com/jaegertracing/jaeger/pkg/config/tlscfg"
-	"github.com/jaegertracing/jaeger/pkg/es"
-	eswrapper "github.com/jaegertracing/jaeger/pkg/es/wrapper"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	storageMetrics "github.com/jaegertracing/jaeger/storage/spanstore/metrics"
+	"github.com/kjschnei001/jaeger/pkg/bearertoken"
+	"github.com/kjschnei001/jaeger/pkg/config/tlscfg"
+	"github.com/kjschnei001/jaeger/pkg/es"
+	eswrapper "github.com/kjschnei001/jaeger/pkg/es/wrapper"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	storageMetrics "github.com/kjschnei001/jaeger/storage/spanstore/metrics"
 )
 
 // Configuration describes the configuration properties needed to connect to an ElasticSearch cluster

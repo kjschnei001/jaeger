@@ -31,11 +31,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/bearertoken"
-	"github.com/jaegertracing/jaeger/pkg/config/tlscfg"
-	"github.com/jaegertracing/jaeger/pkg/prometheus/config"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2/metrics"
-	"github.com/jaegertracing/jaeger/storage/metricsstore"
+	"github.com/kjschnei001/jaeger/pkg/bearertoken"
+	"github.com/kjschnei001/jaeger/pkg/config/tlscfg"
+	"github.com/kjschnei001/jaeger/pkg/prometheus/config"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2/metrics"
+	"github.com/kjschnei001/jaeger/storage/metricsstore"
 )
 
 type (

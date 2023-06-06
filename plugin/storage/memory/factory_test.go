@@ -22,11 +22,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/internal/metrics/fork"
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	"github.com/jaegertracing/jaeger/pkg/config"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/storage"
+	"github.com/kjschnei001/jaeger/internal/metrics/fork"
+	"github.com/kjschnei001/jaeger/internal/metricstest"
+	"github.com/kjschnei001/jaeger/pkg/config"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/storage"
 )
 
 var _ storage.Factory = new(Factory)

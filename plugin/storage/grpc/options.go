@@ -21,9 +21,9 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/jaegertracing/jaeger/pkg/config/tlscfg"
-	"github.com/jaegertracing/jaeger/pkg/tenancy"
-	"github.com/jaegertracing/jaeger/plugin/storage/grpc/config"
+	"github.com/kjschnei001/jaeger/pkg/config/tlscfg"
+	"github.com/kjschnei001/jaeger/pkg/tenancy"
+	"github.com/kjschnei001/jaeger/plugin/storage/grpc/config"
 )
 
 const (

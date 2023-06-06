@@ -25,11 +25,11 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/pkg/bearertoken"
-	"github.com/jaegertracing/jaeger/proto-gen/storage_v1"
-	"github.com/jaegertracing/jaeger/storage/dependencystore"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/kjschnei001/jaeger/model"
+	"github.com/kjschnei001/jaeger/pkg/bearertoken"
+	"github.com/kjschnei001/jaeger/proto-gen/storage_v1"
+	"github.com/kjschnei001/jaeger/storage/dependencystore"
+	"github.com/kjschnei001/jaeger/storage/spanstore"
 )
 
 // BearerTokenKey is the key name for the bearer token context value.

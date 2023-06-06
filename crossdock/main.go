@@ -24,7 +24,7 @@ import (
 	"github.com/crossdock/crossdock-go"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/crossdock/services"
+	"github.com/kjschnei001/jaeger/crossdock/services"
 )
 
 const (

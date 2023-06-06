@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/model"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
 )
 
 // Benchmark result:

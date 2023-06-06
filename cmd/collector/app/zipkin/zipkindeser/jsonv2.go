@@ -15,9 +15,9 @@
 package zipkindeser
 
 import (
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/swagger-gen/models"
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	"github.com/kjschnei001/jaeger/model"
+	"github.com/kjschnei001/jaeger/swagger-gen/models"
+	"github.com/kjschnei001/jaeger/thrift-gen/zipkincore"
 )
 
 // SpansV2ToThrift converts Zipkin V2 JSON to Zipkin Thrift.

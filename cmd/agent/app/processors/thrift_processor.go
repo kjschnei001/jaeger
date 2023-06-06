@@ -23,9 +23,9 @@ import (
 	"github.com/apache/thrift/lib/go/thrift"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/agent/app/customtransport"
-	"github.com/jaegertracing/jaeger/cmd/agent/app/servers"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/cmd/agent/app/customtransport"
+	"github.com/kjschnei001/jaeger/cmd/agent/app/servers"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
 )
 
 // ThriftProcessor is a server that processes spans using a TBuffered Server

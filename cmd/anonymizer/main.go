@@ -21,12 +21,12 @@ import (
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/anonymizer/app"
-	"github.com/jaegertracing/jaeger/cmd/anonymizer/app/anonymizer"
-	"github.com/jaegertracing/jaeger/cmd/anonymizer/app/query"
-	"github.com/jaegertracing/jaeger/cmd/anonymizer/app/uiconv"
-	"github.com/jaegertracing/jaeger/cmd/anonymizer/app/writer"
-	"github.com/jaegertracing/jaeger/pkg/version"
+	"github.com/kjschnei001/jaeger/cmd/anonymizer/app"
+	"github.com/kjschnei001/jaeger/cmd/anonymizer/app/anonymizer"
+	"github.com/kjschnei001/jaeger/cmd/anonymizer/app/query"
+	"github.com/kjschnei001/jaeger/cmd/anonymizer/app/uiconv"
+	"github.com/kjschnei001/jaeger/cmd/anonymizer/app/writer"
+	"github.com/kjschnei001/jaeger/pkg/version"
 )
 
 var logger, _ = zap.NewDevelopment()

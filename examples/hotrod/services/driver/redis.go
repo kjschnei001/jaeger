@@ -26,11 +26,11 @@ import (
 	"github.com/opentracing/opentracing-go/ext"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/examples/hotrod/pkg/delay"
-	"github.com/jaegertracing/jaeger/examples/hotrod/pkg/log"
-	"github.com/jaegertracing/jaeger/examples/hotrod/pkg/tracing"
-	"github.com/jaegertracing/jaeger/examples/hotrod/services/config"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/examples/hotrod/pkg/delay"
+	"github.com/kjschnei001/jaeger/examples/hotrod/pkg/log"
+	"github.com/kjschnei001/jaeger/examples/hotrod/pkg/tracing"
+	"github.com/kjschnei001/jaeger/examples/hotrod/services/config"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
 )
 
 // Redis is a simulator of remote Redis cache

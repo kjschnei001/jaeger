@@ -19,10 +19,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/processor"
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/pkg/normalizer"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/processor"
+	"github.com/kjschnei001/jaeger/model"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/pkg/normalizer"
 )
 
 const (

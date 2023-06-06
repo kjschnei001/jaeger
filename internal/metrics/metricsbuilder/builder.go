@@ -25,9 +25,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/spf13/viper"
 
-	jexpvar "github.com/jaegertracing/jaeger/internal/metrics/expvar"
-	jprom "github.com/jaegertracing/jaeger/internal/metrics/prometheus"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	jexpvar "github.com/kjschnei001/jaeger/internal/metrics/expvar"
+	jprom "github.com/kjschnei001/jaeger/internal/metrics/prometheus"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
 )
 
 const (

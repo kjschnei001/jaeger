@@ -25,12 +25,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/config"
-	"github.com/jaegertracing/jaeger/pkg/es"
-	escfg "github.com/jaegertracing/jaeger/pkg/es/config"
-	"github.com/jaegertracing/jaeger/pkg/es/mocks"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/storage"
+	"github.com/kjschnei001/jaeger/pkg/config"
+	"github.com/kjschnei001/jaeger/pkg/es"
+	escfg "github.com/kjschnei001/jaeger/pkg/es/config"
+	"github.com/kjschnei001/jaeger/pkg/es/mocks"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/storage"
 )
 
 var _ storage.Factory = new(Factory)

@@ -23,8 +23,8 @@ import (
 	"github.com/dgraph-io/badger/v3"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/kjschnei001/jaeger/model"
+	"github.com/kjschnei001/jaeger/storage/spanstore"
 )
 
 func TestEncodingTypes(t *testing.T) {

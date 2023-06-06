@@ -17,7 +17,7 @@ package mocks
 import (
 	"github.com/stretchr/testify/mock"
 
-	"github.com/jaegertracing/jaeger/pkg/es/client"
+	"github.com/kjschnei001/jaeger/pkg/es/client"
 )
 
 type MockIndexAPI struct {

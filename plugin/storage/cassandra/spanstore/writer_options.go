@@ -16,7 +16,7 @@
 package spanstore
 
 import (
-	"github.com/jaegertracing/jaeger/plugin/storage/cassandra/spanstore/dbmodel"
+	"github.com/kjschnei001/jaeger/plugin/storage/cassandra/spanstore/dbmodel"
 )
 
 // Option is a function that sets some option on the writer.

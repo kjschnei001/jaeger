@@ -31,16 +31,16 @@ import (
 	"go.uber.org/zap"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/jaegertracing/jaeger/cmd/agent/app/configmanager"
-	"github.com/jaegertracing/jaeger/cmd/agent/app/reporter"
-	"github.com/jaegertracing/jaeger/cmd/agent/app/reporter/grpc"
-	"github.com/jaegertracing/jaeger/internal/metrics/fork"
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2"
-	"github.com/jaegertracing/jaeger/thrift-gen/baggage"
-	"github.com/jaegertracing/jaeger/thrift-gen/jaeger"
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	"github.com/kjschnei001/jaeger/cmd/agent/app/configmanager"
+	"github.com/kjschnei001/jaeger/cmd/agent/app/reporter"
+	"github.com/kjschnei001/jaeger/cmd/agent/app/reporter/grpc"
+	"github.com/kjschnei001/jaeger/internal/metrics/fork"
+	"github.com/kjschnei001/jaeger/internal/metricstest"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2"
+	"github.com/kjschnei001/jaeger/thrift-gen/baggage"
+	"github.com/kjschnei001/jaeger/thrift-gen/jaeger"
+	"github.com/kjschnei001/jaeger/thrift-gen/zipkincore"
 )
 
 var yamlConfig = `

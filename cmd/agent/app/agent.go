@@ -25,7 +25,7 @@ import (
 	"github.com/gorilla/mux"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/agent/app/processors"
+	"github.com/kjschnei001/jaeger/cmd/agent/app/processors"
 )
 
 // Agent is a composition of all services / components

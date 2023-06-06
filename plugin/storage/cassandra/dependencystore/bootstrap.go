@@ -16,11 +16,11 @@
 package dependencystore
 
 import (
-	"github.com/jaegertracing/jaeger/pkg/cassandra"
+	"github.com/kjschnei001/jaeger/pkg/cassandra"
 )
 
 // GetDependencyVersion attempts to determine the version of the dependencies table.
-// TODO: Remove this once we've migrated to V2 permanently. https://github.com/jaegertracing/jaeger/issues/1344
+// TODO: Remove this once we've migrated to V2 permanently. https://github.com/kjschnei001/jaeger/issues/1344
 func GetDependencyVersion(s cassandra.Session) Version {
 	if err := s.Query("SELECT ts from dependencies_v2 limit 1;").Exec(); err != nil {
 		return V1

@@ -27,12 +27,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/pkg/config"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/pkg/testutils"
-	"github.com/jaegertracing/jaeger/plugin/storage/cassandra"
-	"github.com/jaegertracing/jaeger/storage/dependencystore"
+	"github.com/kjschnei001/jaeger/model"
+	"github.com/kjschnei001/jaeger/pkg/config"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/pkg/testutils"
+	"github.com/kjschnei001/jaeger/plugin/storage/cassandra"
+	"github.com/kjschnei001/jaeger/storage/dependencystore"
 )
 
 var errInitializeCassandraDependencyWriter = errors.New("failed to initialize cassandra dependency writer")

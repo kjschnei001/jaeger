@@ -22,7 +22,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"
 
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2"
 )
 
 type mockSamplingStore struct{}

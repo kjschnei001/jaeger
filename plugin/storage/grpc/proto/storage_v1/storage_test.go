@@ -22,9 +22,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/plugin/storage/grpc/proto/storageprototest"
-	"github.com/jaegertracing/jaeger/proto-gen/storage_v1"
+	"github.com/kjschnei001/jaeger/model"
+	"github.com/kjschnei001/jaeger/plugin/storage/grpc/proto/storageprototest"
+	"github.com/kjschnei001/jaeger/proto-gen/storage_v1"
 )
 
 func TestGetTraceRequestMarshalProto(t *testing.T) {

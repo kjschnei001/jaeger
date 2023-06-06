@@ -24,7 +24,7 @@ import (
 	"go.opentelemetry.io/otel/propagation"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/examples/hotrod/pkg/log"
+	"github.com/kjschnei001/jaeger/examples/hotrod/pkg/log"
 )
 
 // NewServeMux creates a new TracedServeMux.

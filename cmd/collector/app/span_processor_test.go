@@ -29,16 +29,16 @@ import (
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/handler"
-	"github.com/jaegertracing/jaeger/cmd/collector/app/processor"
-	zipkinsanitizer "github.com/jaegertracing/jaeger/cmd/collector/app/sanitizer/zipkin"
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/pkg/tenancy"
-	"github.com/jaegertracing/jaeger/pkg/testutils"
-	"github.com/jaegertracing/jaeger/thrift-gen/jaeger"
-	zc "github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/handler"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/processor"
+	zipkinsanitizer "github.com/kjschnei001/jaeger/cmd/collector/app/sanitizer/zipkin"
+	"github.com/kjschnei001/jaeger/internal/metricstest"
+	"github.com/kjschnei001/jaeger/model"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/pkg/tenancy"
+	"github.com/kjschnei001/jaeger/pkg/testutils"
+	"github.com/kjschnei001/jaeger/thrift-gen/jaeger"
+	zc "github.com/kjschnei001/jaeger/thrift-gen/zipkincore"
 )
 
 var (

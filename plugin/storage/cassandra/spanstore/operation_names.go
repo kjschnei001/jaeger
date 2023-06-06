@@ -21,12 +21,12 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/cache"
-	"github.com/jaegertracing/jaeger/pkg/cassandra"
-	casMetrics "github.com/jaegertracing/jaeger/pkg/cassandra/metrics"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/plugin/storage/cassandra/spanstore/dbmodel"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/kjschnei001/jaeger/pkg/cache"
+	"github.com/kjschnei001/jaeger/pkg/cassandra"
+	casMetrics "github.com/kjschnei001/jaeger/pkg/cassandra/metrics"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/plugin/storage/cassandra/spanstore/dbmodel"
+	"github.com/kjschnei001/jaeger/storage/spanstore"
 )
 
 const (

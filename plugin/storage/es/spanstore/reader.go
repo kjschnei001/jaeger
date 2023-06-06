@@ -29,11 +29,11 @@ import (
 	otlog "github.com/opentracing/opentracing-go/log"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/pkg/es"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/plugin/storage/es/spanstore/dbmodel"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/kjschnei001/jaeger/model"
+	"github.com/kjschnei001/jaeger/pkg/es"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/plugin/storage/es/spanstore/dbmodel"
+	"github.com/kjschnei001/jaeger/storage/spanstore"
 )
 
 const (
@@ -304,7 +304,7 @@ func (s *SpanReader) GetOperations(
 		return nil, err
 	}
 
-	// TODO: https://github.com/jaegertracing/jaeger/issues/1923
+	// TODO: https://github.com/kjschnei001/jaeger/issues/1923
 	// 	- return the operations with actual span kind that meet requirement
 	var result []spanstore.Operation
 	for _, operation := range operations {
@@ -447,7 +447,7 @@ func buildTraceByIDQuery(traceID model.TraceID) elastic.Query {
 	if traceIDStr[0] != '0' {
 		return elastic.NewTermQuery(traceIDField, traceIDStr)
 	}
-	// https://github.com/jaegertracing/jaeger/pull/1956 added leading zeros to IDs
+	// https://github.com/kjschnei001/jaeger/pull/1956 added leading zeros to IDs
 	// So we need to also read IDs without leading zeros for compatibility with previously saved data.
 	// TODO remove in newer versions, added in Jaeger 1.16
 	var legacyTraceID string
@@ -463,7 +463,7 @@ func buildTraceByIDQuery(traceID model.TraceID) elastic.Query {
 
 func convertTraceIDsStringsToModels(traceIDs []string) ([]model.TraceID, error) {
 	traceIDsMap := map[model.TraceID]bool{}
-	// https://github.com/jaegertracing/jaeger/pull/1956 added leading zeros to IDs
+	// https://github.com/kjschnei001/jaeger/pull/1956 added leading zeros to IDs
 	// So we need to also read IDs without leading zeros for compatibility with previously saved data.
 	// That means the input to this function may contain logically identical trace IDs but formatted
 	// with or without padding, and we need to dedupe them.

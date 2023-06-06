@@ -17,8 +17,8 @@ package shared
 import (
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/jaegertracing/jaeger/storage/dependencystore"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/kjschnei001/jaeger/storage/dependencystore"
+	"github.com/kjschnei001/jaeger/storage/spanstore"
 )
 
 // StoragePluginIdentifier is the identifier that is shared by plugin and host.

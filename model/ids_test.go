@@ -24,8 +24,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/model/prototest"
+	"github.com/kjschnei001/jaeger/model"
+	"github.com/kjschnei001/jaeger/model/prototest"
 )
 
 // TraceID/SpanID fields are defined as bytes in proto, backed by custom types in Go.

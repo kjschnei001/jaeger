@@ -24,11 +24,11 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/model/adjuster"
-	"github.com/jaegertracing/jaeger/pkg/memory/config"
-	"github.com/jaegertracing/jaeger/pkg/tenancy"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/kjschnei001/jaeger/model"
+	"github.com/kjschnei001/jaeger/model/adjuster"
+	"github.com/kjschnei001/jaeger/pkg/memory/config"
+	"github.com/kjschnei001/jaeger/pkg/tenancy"
+	"github.com/kjschnei001/jaeger/storage/spanstore"
 )
 
 // Store is an in-memory store of traces

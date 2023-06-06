@@ -23,9 +23,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/plugin/metrics/disabled"
-	"github.com/jaegertracing/jaeger/storage"
-	"github.com/jaegertracing/jaeger/storage/mocks"
+	"github.com/kjschnei001/jaeger/plugin/metrics/disabled"
+	"github.com/kjschnei001/jaeger/storage"
+	"github.com/kjschnei001/jaeger/storage/mocks"
 )
 
 var _ storage.MetricsFactory = new(Factory)

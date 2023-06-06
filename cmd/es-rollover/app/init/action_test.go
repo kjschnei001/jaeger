@@ -23,9 +23,9 @@ import (
 	"github.com/crossdock/crossdock-go/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/jaegertracing/jaeger/cmd/es-rollover/app"
-	"github.com/jaegertracing/jaeger/pkg/es/client"
-	"github.com/jaegertracing/jaeger/pkg/es/client/mocks"
+	"github.com/kjschnei001/jaeger/cmd/es-rollover/app"
+	"github.com/kjschnei001/jaeger/pkg/es/client"
+	"github.com/kjschnei001/jaeger/pkg/es/client/mocks"
 )
 
 func TestIndexCreateIfNotExist(t *testing.T) {

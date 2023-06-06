@@ -25,7 +25,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2"
 )
 
 func close(t *testing.T, c io.Closer) {

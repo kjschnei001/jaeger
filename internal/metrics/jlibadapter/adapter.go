@@ -17,7 +17,7 @@ package jlibadapter
 import (
 	jlibmetrics "github.com/uber/jaeger-lib/metrics"
 
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
 )
 
 // adapter is temporary type used to bridge metrics API in this package

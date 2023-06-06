@@ -23,16 +23,16 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/config"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	grpcConfig "github.com/jaegertracing/jaeger/plugin/storage/grpc/config"
-	"github.com/jaegertracing/jaeger/plugin/storage/grpc/mocks"
-	"github.com/jaegertracing/jaeger/plugin/storage/grpc/shared"
-	"github.com/jaegertracing/jaeger/storage"
-	"github.com/jaegertracing/jaeger/storage/dependencystore"
-	dependencyStoreMocks "github.com/jaegertracing/jaeger/storage/dependencystore/mocks"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
-	spanStoreMocks "github.com/jaegertracing/jaeger/storage/spanstore/mocks"
+	"github.com/kjschnei001/jaeger/pkg/config"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	grpcConfig "github.com/kjschnei001/jaeger/plugin/storage/grpc/config"
+	"github.com/kjschnei001/jaeger/plugin/storage/grpc/mocks"
+	"github.com/kjschnei001/jaeger/plugin/storage/grpc/shared"
+	"github.com/kjschnei001/jaeger/storage"
+	"github.com/kjschnei001/jaeger/storage/dependencystore"
+	dependencyStoreMocks "github.com/kjschnei001/jaeger/storage/dependencystore/mocks"
+	"github.com/kjschnei001/jaeger/storage/spanstore"
+	spanStoreMocks "github.com/kjschnei001/jaeger/storage/spanstore/mocks"
 )
 
 var _ storage.Factory = new(Factory)

@@ -21,7 +21,7 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/query/app/querysvc"
+	"github.com/kjschnei001/jaeger/cmd/query/app/querysvc"
 )
 
 // HandlerOption is a function that sets some option on the APIHandler

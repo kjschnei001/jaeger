@@ -25,7 +25,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/fswatcher"
+	"github.com/kjschnei001/jaeger/pkg/fswatcher"
 )
 
 const (

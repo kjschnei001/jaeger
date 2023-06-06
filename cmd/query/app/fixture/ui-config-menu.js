@@ -1,10 +1,10 @@
-function UIConfig(){
+function UIConfig() {
   return {
     menu: [
       {
         label: "GitHub",
-        url: "https://github.com/jaegertracing/jaeger"
-      }
-    ]
-  }
+        url: "https://github.com/kjschnei001/jaeger",
+      },
+    ],
+  };
 }

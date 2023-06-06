@@ -14,7 +14,7 @@
 
 package querysvc
 
-import "github.com/jaegertracing/jaeger/storage/metricsstore"
+import "github.com/kjschnei001/jaeger/storage/metricsstore"
 
 // MetricsQueryService provides a means of querying R.E.D metrics from an underlying metrics store.
 type MetricsQueryService interface {

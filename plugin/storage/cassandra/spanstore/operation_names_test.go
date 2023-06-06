@@ -25,11 +25,11 @@ import (
 	"github.com/stretchr/testify/mock"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	"github.com/jaegertracing/jaeger/pkg/cassandra/mocks"
-	"github.com/jaegertracing/jaeger/pkg/testutils"
-	"github.com/jaegertracing/jaeger/plugin/storage/cassandra/spanstore/dbmodel"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/kjschnei001/jaeger/internal/metricstest"
+	"github.com/kjschnei001/jaeger/pkg/cassandra/mocks"
+	"github.com/kjschnei001/jaeger/pkg/testutils"
+	"github.com/kjschnei001/jaeger/plugin/storage/cassandra/spanstore/dbmodel"
+	"github.com/kjschnei001/jaeger/storage/spanstore"
 )
 
 type operationNameStorageTest struct {

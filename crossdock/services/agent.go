@@ -23,8 +23,8 @@ import (
 
 	"go.uber.org/zap"
 
-	p2json "github.com/jaegertracing/jaeger/model/converter/json"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2"
+	p2json "github.com/kjschnei001/jaeger/model/converter/json"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2"
 )
 
 var errSamplingRateMissing = errors.New("sampling rate is missing")

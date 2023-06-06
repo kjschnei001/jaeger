@@ -21,7 +21,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/config"
+	"github.com/kjschnei001/jaeger/pkg/config"
 )
 
 func TestFlags(t *testing.T) {

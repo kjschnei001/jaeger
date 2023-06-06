@@ -16,7 +16,7 @@
 package app
 
 import (
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/kjschnei001/jaeger/model"
 )
 
 // ProcessSpan processes a Domain Model Span

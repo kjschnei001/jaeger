@@ -22,7 +22,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
 )
 
 // limit the size of cache for timers to avoid DDOS.
@@ -132,7 +132,7 @@ func (r *requestDurations) getTimer(cacheKey recordedRequestKey) metrics.Timer {
 }
 
 func (r *requestDurations) buildTimer(metricsFactory metrics.Factory, key recordedRequestKey) (out metrics.Timer) {
-	// deal with https://github.com/jaegertracing/jaeger/issues/2944
+	// deal with https://github.com/kjschnei001/jaeger/issues/2944
 	defer func() {
 		if err := recover(); err != nil {
 			r.logger.Error("panic in metrics factory trying to create a timer", zap.Any("error", err))

@@ -17,8 +17,8 @@ package jaeger
 import (
 	"errors"
 
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2"
-	"github.com/jaegertracing/jaeger/thrift-gen/sampling"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2"
+	"github.com/kjschnei001/jaeger/thrift-gen/sampling"
 )
 
 // ConvertSamplingResponseToDomain converts thrift sampling response to its proto representation.

@@ -21,7 +21,7 @@ import (
 
 	"github.com/crossdock/crossdock-go/assert"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sampling/model"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/sampling/model"
 )
 
 func withPopulatedSamplingStore(f func(samplingStore *SamplingStore)) {

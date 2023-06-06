@@ -15,7 +15,7 @@
 package dbmodel
 
 import (
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/kjschnei001/jaeger/model"
 )
 
 // ExactMatchTagFilter filters out all tags in its tags slice

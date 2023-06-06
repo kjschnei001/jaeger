@@ -34,17 +34,17 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/jaegertracing/jaeger/cmd/query/app/querysvc"
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/pkg/tenancy"
-	"github.com/jaegertracing/jaeger/plugin/metrics/disabled"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2/metrics"
-	depsmocks "github.com/jaegertracing/jaeger/storage/dependencystore/mocks"
-	"github.com/jaegertracing/jaeger/storage/metricsstore"
-	metricsmocks "github.com/jaegertracing/jaeger/storage/metricsstore/mocks"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
-	spanstoremocks "github.com/jaegertracing/jaeger/storage/spanstore/mocks"
+	"github.com/kjschnei001/jaeger/cmd/query/app/querysvc"
+	"github.com/kjschnei001/jaeger/model"
+	"github.com/kjschnei001/jaeger/pkg/tenancy"
+	"github.com/kjschnei001/jaeger/plugin/metrics/disabled"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2/metrics"
+	depsmocks "github.com/kjschnei001/jaeger/storage/dependencystore/mocks"
+	"github.com/kjschnei001/jaeger/storage/metricsstore"
+	metricsmocks "github.com/kjschnei001/jaeger/storage/metricsstore/mocks"
+	"github.com/kjschnei001/jaeger/storage/spanstore"
+	spanstoremocks "github.com/kjschnei001/jaeger/storage/spanstore/mocks"
 )
 
 var (

@@ -21,7 +21,7 @@ import (
 
 	"github.com/dgraph-io/badger/v3"
 
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/kjschnei001/jaeger/storage/spanstore"
 )
 
 // CacheStore saves expensive calculations from the K/V store
@@ -152,7 +152,7 @@ func (c *CacheStore) GetOperations(service string) ([]spanstore.Operation, error
 
 	sort.Strings(operations)
 
-	// TODO: https://github.com/jaegertracing/jaeger/issues/1922
+	// TODO: https://github.com/kjschnei001/jaeger/issues/1922
 	// 	- return the operations with actual spanKind
 	result := make([]spanstore.Operation, 0, len(operations))
 	for _, op := range operations {

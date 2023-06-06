@@ -32,11 +32,11 @@ import (
 	noopmetric "go.opentelemetry.io/otel/metric/noop"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/flags"
-	"github.com/jaegertracing/jaeger/cmd/collector/app/processor"
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/pkg/config/tlscfg"
-	"github.com/jaegertracing/jaeger/pkg/tenancy"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/flags"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/processor"
+	"github.com/kjschnei001/jaeger/model"
+	"github.com/kjschnei001/jaeger/pkg/config/tlscfg"
+	"github.com/kjschnei001/jaeger/pkg/tenancy"
 )
 
 var _ component.Host = (*otelHost)(nil) // API check

@@ -17,8 +17,8 @@ package strategystore
 import (
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/storage"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/storage"
 )
 
 // Factory defines an interface for a factory that can create implementations of different strategy storage components.

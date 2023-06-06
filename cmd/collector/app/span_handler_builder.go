@@ -20,14 +20,14 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/flags"
-	"github.com/jaegertracing/jaeger/cmd/collector/app/handler"
-	"github.com/jaegertracing/jaeger/cmd/collector/app/processor"
-	zs "github.com/jaegertracing/jaeger/cmd/collector/app/sanitizer/zipkin"
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/pkg/tenancy"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/flags"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/handler"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/processor"
+	zs "github.com/kjschnei001/jaeger/cmd/collector/app/sanitizer/zipkin"
+	"github.com/kjschnei001/jaeger/model"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/pkg/tenancy"
+	"github.com/kjschnei001/jaeger/storage/spanstore"
 )
 
 // SpanHandlerBuilder holds configuration required for handlers

@@ -31,8 +31,8 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.4.0"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/internal/jaegerclientenv2otel"
-	"github.com/jaegertracing/jaeger/internal/tracegen"
+	"github.com/kjschnei001/jaeger/internal/jaegerclientenv2otel"
+	"github.com/kjschnei001/jaeger/internal/tracegen"
 )
 
 var logger, _ = zap.NewDevelopment()

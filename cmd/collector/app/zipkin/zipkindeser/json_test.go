@@ -23,8 +23,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	m "github.com/jaegertracing/jaeger/cmd/collector/app/zipkin/zipkindeser/zipkindesermocks"
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	m "github.com/kjschnei001/jaeger/cmd/collector/app/zipkin/zipkindeser/zipkindesermocks"
+	"github.com/kjschnei001/jaeger/thrift-gen/zipkincore"
 )
 
 func TestDecodeWrongJson(t *testing.T) {

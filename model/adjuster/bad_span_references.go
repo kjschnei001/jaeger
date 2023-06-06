@@ -18,7 +18,7 @@ package adjuster
 import (
 	"fmt"
 
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/kjschnei001/jaeger/model"
 )
 
 // SpanReferences creates an adjuster that removes invalid span references, e.g. with traceID==0

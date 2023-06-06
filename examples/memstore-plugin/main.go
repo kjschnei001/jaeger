@@ -25,10 +25,10 @@ import (
 	jaegerClientConfig "github.com/uber/jaeger-client-go/config"
 	googleGRPC "google.golang.org/grpc"
 
-	"github.com/jaegertracing/jaeger/plugin/storage/grpc"
-	grpcMemory "github.com/jaegertracing/jaeger/plugin/storage/grpc/memory"
-	"github.com/jaegertracing/jaeger/plugin/storage/grpc/shared"
-	"github.com/jaegertracing/jaeger/plugin/storage/memory"
+	"github.com/kjschnei001/jaeger/plugin/storage/grpc"
+	grpcMemory "github.com/kjschnei001/jaeger/plugin/storage/grpc/memory"
+	"github.com/kjschnei001/jaeger/plugin/storage/grpc/shared"
+	"github.com/kjschnei001/jaeger/plugin/storage/memory"
 )
 
 const (

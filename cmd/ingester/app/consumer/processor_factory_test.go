@@ -22,9 +22,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"go.uber.org/zap"
 
-	kmocks "github.com/jaegertracing/jaeger/cmd/ingester/app/consumer/mocks"
-	"github.com/jaegertracing/jaeger/cmd/ingester/app/processor/mocks"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	kmocks "github.com/kjschnei001/jaeger/cmd/ingester/app/consumer/mocks"
+	"github.com/kjschnei001/jaeger/cmd/ingester/app/processor/mocks"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
 )
 
 func Test_NewFactory(t *testing.T) {

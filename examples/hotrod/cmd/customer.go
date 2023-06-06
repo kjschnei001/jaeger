@@ -22,8 +22,8 @@ import (
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/examples/hotrod/pkg/log"
-	"github.com/jaegertracing/jaeger/examples/hotrod/services/customer"
+	"github.com/kjschnei001/jaeger/examples/hotrod/pkg/log"
+	"github.com/kjschnei001/jaeger/examples/hotrod/services/customer"
 )
 
 // customerCmd represents the customer command

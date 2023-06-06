@@ -39,17 +39,17 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/jaegertracing/jaeger/cmd/query/app/querysvc"
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/model/adjuster"
-	ui "github.com/jaegertracing/jaeger/model/json"
-	"github.com/jaegertracing/jaeger/pkg/tenancy"
-	"github.com/jaegertracing/jaeger/plugin/metrics/disabled"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2/metrics"
-	depsmocks "github.com/jaegertracing/jaeger/storage/dependencystore/mocks"
-	metricsmocks "github.com/jaegertracing/jaeger/storage/metricsstore/mocks"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
-	spanstoremocks "github.com/jaegertracing/jaeger/storage/spanstore/mocks"
+	"github.com/kjschnei001/jaeger/cmd/query/app/querysvc"
+	"github.com/kjschnei001/jaeger/model"
+	"github.com/kjschnei001/jaeger/model/adjuster"
+	ui "github.com/kjschnei001/jaeger/model/json"
+	"github.com/kjschnei001/jaeger/pkg/tenancy"
+	"github.com/kjschnei001/jaeger/plugin/metrics/disabled"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2/metrics"
+	depsmocks "github.com/kjschnei001/jaeger/storage/dependencystore/mocks"
+	metricsmocks "github.com/kjschnei001/jaeger/storage/metricsstore/mocks"
+	"github.com/kjschnei001/jaeger/storage/spanstore"
+	spanstoremocks "github.com/kjschnei001/jaeger/storage/spanstore/mocks"
 )
 
 const millisToNanosMultiplier = int64(time.Millisecond / time.Nanosecond)

@@ -20,8 +20,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jaegertracing/jaeger/model/converter/thrift/zipkin"
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	"github.com/kjschnei001/jaeger/model/converter/thrift/zipkin"
+	"github.com/kjschnei001/jaeger/thrift-gen/zipkincore"
 )
 
 func TestProtobufMarshallerAndUnmarshaller(t *testing.T) {

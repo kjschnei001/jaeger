@@ -23,8 +23,8 @@ import (
 	"github.com/Shopify/sarama"
 	"github.com/spf13/viper"
 
-	"github.com/jaegertracing/jaeger/pkg/kafka/auth"
-	"github.com/jaegertracing/jaeger/pkg/kafka/producer"
+	"github.com/kjschnei001/jaeger/pkg/kafka/auth"
+	"github.com/kjschnei001/jaeger/pkg/kafka/producer"
 )
 
 const (

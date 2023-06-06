@@ -30,16 +30,16 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/internal/metrics/fork"
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	"github.com/jaegertracing/jaeger/pkg/config"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/storage"
-	"github.com/jaegertracing/jaeger/storage/dependencystore"
-	depStoreMocks "github.com/jaegertracing/jaeger/storage/dependencystore/mocks"
-	"github.com/jaegertracing/jaeger/storage/mocks"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
-	spanStoreMocks "github.com/jaegertracing/jaeger/storage/spanstore/mocks"
+	"github.com/kjschnei001/jaeger/internal/metrics/fork"
+	"github.com/kjschnei001/jaeger/internal/metricstest"
+	"github.com/kjschnei001/jaeger/pkg/config"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/storage"
+	"github.com/kjschnei001/jaeger/storage/dependencystore"
+	depStoreMocks "github.com/kjschnei001/jaeger/storage/dependencystore/mocks"
+	"github.com/kjschnei001/jaeger/storage/mocks"
+	"github.com/kjschnei001/jaeger/storage/spanstore"
+	spanStoreMocks "github.com/kjschnei001/jaeger/storage/spanstore/mocks"
 )
 
 var (

@@ -16,7 +16,7 @@
 package adjuster
 
 import (
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/kjschnei001/jaeger/model"
 )
 
 // SortLogFields returns an Adjuster that sorts the fields in the span logs.

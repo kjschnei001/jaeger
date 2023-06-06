@@ -30,15 +30,15 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/gorilla/mux"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/handler"
-	"github.com/jaegertracing/jaeger/cmd/collector/app/processor"
-	"github.com/jaegertracing/jaeger/cmd/collector/app/zipkin/zipkindeser"
-	"github.com/jaegertracing/jaeger/model/converter/thrift/zipkin"
-	zipkinProto "github.com/jaegertracing/jaeger/proto-gen/zipkin"
-	"github.com/jaegertracing/jaeger/swagger-gen/models"
-	"github.com/jaegertracing/jaeger/swagger-gen/restapi"
-	"github.com/jaegertracing/jaeger/swagger-gen/restapi/operations"
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/handler"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/processor"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/zipkin/zipkindeser"
+	"github.com/kjschnei001/jaeger/model/converter/thrift/zipkin"
+	zipkinProto "github.com/kjschnei001/jaeger/proto-gen/zipkin"
+	"github.com/kjschnei001/jaeger/swagger-gen/models"
+	"github.com/kjschnei001/jaeger/swagger-gen/restapi"
+	"github.com/kjschnei001/jaeger/swagger-gen/restapi/operations"
+	"github.com/kjschnei001/jaeger/thrift-gen/zipkincore"
 )
 
 // APIHandler handles all HTTP calls to the collector

@@ -31,8 +31,8 @@ import (
 	"github.com/uber/jaeger-client-go"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/crossdock/services/mocks"
-	ui "github.com/jaegertracing/jaeger/model/json"
+	"github.com/kjschnei001/jaeger/crossdock/services/mocks"
+	ui "github.com/kjschnei001/jaeger/model/json"
 )
 
 var testTrace = ui.Trace{

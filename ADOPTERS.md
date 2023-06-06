@@ -13,7 +13,7 @@
 * PalFish
   * Official site: [en](https://ipalfish.com/klian/web/dist/teacher/home.html), [cn](https://www.ipalfish.com/)
 * [Red Hat](https://www.redhat.com/)
-  * https://github.com/jaegertracing/jaeger-openshift
+  * https://github.com/kjschnei001/jaeger-openshift
   * https://www.hawkular.org/blog/2017/04/19/hawkular-apm-jaeger.html
 * [RiksTV](https://www.rikstv.no/)
 * [SeatGeek](https://seatgeek.com/)

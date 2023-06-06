@@ -83,9 +83,9 @@ The OpenTracing and OpenCensus projects have merged into a new CNCF project call
 
 Jaeger can be used with a growing a number of storage backends:
 * It natively supports two popular open source NoSQL databases as trace storage backends: Cassandra and Elasticsearch.
-* It integrates via a gRPC API with other well known databases that have been certified to be Jaeger compliant: [TimescaleDB via Promscale](https://github.com/timescale/promscale), [ClickHouse](https://github.com/jaegertracing/jaeger-clickhouse).
+* It integrates via a gRPC API with other well known databases that have been certified to be Jaeger compliant: [TimescaleDB via Promscale](https://github.com/timescale/promscale), [ClickHouse](https://github.com/kjschnei001/jaeger-clickhouse).
 * There is embedded database support using [Badger](https://github.com/dgraph-io/badger) and simple in-memory storage for testing setups.
-* ScyllaDB [can be used](https://github.com/jaegertracing/jaeger/blob/main/plugin/storage/scylladb/README.md) as a drop-in replacement for Cassandra since it uses the same data model and query language.
+* ScyllaDB [can be used](https://github.com/kjschnei001/jaeger/blob/main/plugin/storage/scylladb/README.md) as a drop-in replacement for Cassandra since it uses the same data model and query language.
 * There are ongoing community experiments using other databases, such as InfluxDB, Amazon DynamoDB, YugabyteDB(YCQL).
 
 ### Modern Web UI
@@ -99,9 +99,9 @@ traces with tens of thousands of spans (e.g. we tried a trace with 80,000 spans)
 Jaeger backend is distributed as a collection of Docker images. The binaries support various configuration methods,
 including command line options, environment variables, and configuration files in multiple formats (yaml, toml, etc.).
 
-The recommended way to deploy Jaeger in a production Kubernetes cluster is via the [Jaeger Operator](https://github.com/jaegertracing/jaeger-operator).
+The recommended way to deploy Jaeger in a production Kubernetes cluster is via the [Jaeger Operator](https://github.com/kjschnei001/jaeger-operator).
 
-The Jaeger Operator provides a [CLI to generate](https://github.com/jaegertracing/jaeger-operator#experimental-generate-kubernetes-manifest-file) Kubernetes manifests from the Jaeger CR.
+The Jaeger Operator provides a [CLI to generate](https://github.com/kjschnei001/jaeger-operator#experimental-generate-kubernetes-manifest-file) Kubernetes manifests from the Jaeger CR.
 This can be considered as an alternative source over plain Kubernetes manifest files.
 
 The Jaeger ecosystem also provides a [Helm chart](https://github.com/jaegertracing/helm-charts) as an alternative way to deploy Jaeger.
@@ -113,7 +113,7 @@ also supported). Logs are written to standard out using the structured logging l
 
 ### Security
 
-Third-party security audits of Jaeger are available in https://github.com/jaegertracing/security-audits. Please see [Issue #1718](https://github.com/jaegertracing/jaeger/issues/1718) for the summary of available security mechanisms in Jaeger.
+Third-party security audits of Jaeger are available in https://github.com/jaegertracing/security-audits. Please see [Issue #1718](https://github.com/kjschnei001/jaeger/issues/1718) for the summary of available security mechanisms in Jaeger.
 
 ### Backwards compatibility with Zipkin
 
@@ -152,12 +152,12 @@ Jaeger project recommends OpenTelemetry SDKs for instrumentation, instead of Jae
 
 ### Deployment
 
-  * [Jaeger Operator for Kubernetes](https://github.com/jaegertracing/jaeger-operator#getting-started)
+  * [Jaeger Operator for Kubernetes](https://github.com/kjschnei001/jaeger-operator#getting-started)
 
 ### Components
 
- * [UI](https://github.com/jaegertracing/jaeger-ui)
- * [Data model](https://github.com/jaegertracing/jaeger-idl)
+ * [UI](https://github.com/kjschnei001/jaeger-ui)
+ * [Data model](https://github.com/kjschnei001/jaeger-idl)
 
 ## Building From Source
 
@@ -169,7 +169,7 @@ See [CONTRIBUTING](./CONTRIBUTING.md).
 
 Thanks to all the people who already contributed!
 
-<a href="https://github.com/jaegertracing/jaeger/graphs/contributors">
+<a href="https://github.com/kjschnei001/jaeger/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=jaegertracing/jaeger" />
 </a>
 
@@ -210,7 +210,7 @@ Have questions, suggestions, bug reports? Reach the project community via these 
 
  * [Slack chat room `#jaeger`][slack] (need to join [CNCF Slack][slack-join] for the first time)
  * [`jaeger-tracing` mail group](https://groups.google.com/forum/#!forum/jaeger-tracing)
- * GitHub [issues](https://github.com/jaegertracing/jaeger/issues) and [discussions](https://github.com/jaegertracing/jaeger/discussions)
+ * GitHub [issues](https://github.com/kjschnei001/jaeger/issues) and [discussions](https://github.com/kjschnei001/jaeger/discussions)
 
 ## Adopters
 
@@ -220,17 +220,17 @@ whether it runs in production or you use it to troubleshoot issues in developmen
 
 Please see [ADOPTERS.md](./ADOPTERS.md) for some of the organizations using Jaeger today.
 If you would like to add your organization to the list, please comment on our
-[survey issue](https://github.com/jaegertracing/jaeger/issues/207).
+[survey issue](https://github.com/kjschnei001/jaeger/issues/207).
 
 ## License
 
 Copyright (c) The Jaeger Authors. [Apache 2.0 License](./LICENSE).
 
 [doc]: https://jaegertracing.io/docs/
-[godoc-img]: https://godoc.org/github.com/jaegertracing/jaeger?status.svg
-[godoc]: https://godoc.org/github.com/jaegertracing/jaeger
-[ci-img]: https://github.com/jaegertracing/jaeger/workflows/Unit%20Tests/badge.svg?branch=main
-[ci]: https://github.com/jaegertracing/jaeger/actions?query=branch%3Amain
+[godoc-img]: https://godoc.org/github.com/kjschnei001/jaeger?status.svg
+[godoc]: https://godoc.org/github.com/kjschnei001/jaeger
+[ci-img]: https://github.com/kjschnei001/jaeger/workflows/Unit%20Tests/badge.svg?branch=main
+[ci]: https://github.com/kjschnei001/jaeger/actions?query=branch%3Amain
 [cov-img]: https://codecov.io/gh/jaegertracing/jaeger/branch/main/graph/badge.svg
 [cov]: https://codecov.io/gh/jaegertracing/jaeger/branch/main/
 [fossa-img]: https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjaegertracing%2Fjaeger.svg?type=shield

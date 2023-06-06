@@ -6,8 +6,8 @@ package v1
 import (
 	fmt "fmt"
 	proto "github.com/gogo/protobuf/proto"
-	v11 "github.com/jaegertracing/jaeger/proto-gen/otel/common/v1"
-	v1 "github.com/jaegertracing/jaeger/proto-gen/otel/resource/v1"
+	v11 "github.com/kjschnei001/jaeger/proto-gen/otel/common/v1"
+	v1 "github.com/kjschnei001/jaeger/proto-gen/otel/resource/v1"
 	math "math"
 )
 

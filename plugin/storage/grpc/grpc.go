@@ -18,7 +18,7 @@ import (
 	"github.com/hashicorp/go-plugin"
 	"google.golang.org/grpc"
 
-	"github.com/jaegertracing/jaeger/plugin/storage/grpc/shared"
+	"github.com/kjschnei001/jaeger/plugin/storage/grpc/shared"
 )
 
 // Serve creates a plugin configuration using the implementation of StoragePlugin and then serves it.

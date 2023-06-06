@@ -69,7 +69,7 @@ message CloseWriterResponse {
 message GetTraceRequest {
     bytes trace_id = 1 [
       (gogoproto.nullable) = false,
-      (gogoproto.customtype) = "github.com/jaegertracing/jaeger/model.TraceID",
+      (gogoproto.customtype) = "github.com/kjschnei001/jaeger/model.TraceID",
       (gogoproto.customname) = "TraceID"
     ];
 }
@@ -135,7 +135,7 @@ message FindTraceIDsRequest {
 message FindTraceIDsResponse {
     repeated bytes trace_ids = 1 [
       (gogoproto.nullable) = false,
-      (gogoproto.customtype) = "github.com/jaegertracing/jaeger/model.TraceID",
+      (gogoproto.customtype) = "github.com/kjschnei001/jaeger/model.TraceID",
       (gogoproto.customname) = "TraceIDs"
     ];
 }

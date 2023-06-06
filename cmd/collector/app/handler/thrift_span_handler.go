@@ -18,13 +18,13 @@ package handler
 import (
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/processor"
-	zipkinS "github.com/jaegertracing/jaeger/cmd/collector/app/sanitizer/zipkin"
-	"github.com/jaegertracing/jaeger/model"
-	jConv "github.com/jaegertracing/jaeger/model/converter/thrift/jaeger"
-	"github.com/jaegertracing/jaeger/model/converter/thrift/zipkin"
-	"github.com/jaegertracing/jaeger/thrift-gen/jaeger"
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/processor"
+	zipkinS "github.com/kjschnei001/jaeger/cmd/collector/app/sanitizer/zipkin"
+	"github.com/kjschnei001/jaeger/model"
+	jConv "github.com/kjschnei001/jaeger/model/converter/thrift/jaeger"
+	"github.com/kjschnei001/jaeger/model/converter/thrift/zipkin"
+	"github.com/kjschnei001/jaeger/thrift-gen/jaeger"
+	"github.com/kjschnei001/jaeger/thrift-gen/zipkincore"
 )
 
 // SubmitBatchOptions are passed to Submit methods of the handlers.

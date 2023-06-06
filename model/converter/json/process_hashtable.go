@@ -18,7 +18,7 @@ package json
 import (
 	"strconv"
 
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/kjschnei001/jaeger/model"
 )
 
 type processHashtable struct {

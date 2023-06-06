@@ -27,10 +27,10 @@ import (
 	"github.com/gocql/gocql"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sampling/model"
-	"github.com/jaegertracing/jaeger/pkg/cassandra"
-	casMetrics "github.com/jaegertracing/jaeger/pkg/cassandra/metrics"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/sampling/model"
+	"github.com/kjschnei001/jaeger/pkg/cassandra"
+	casMetrics "github.com/kjschnei001/jaeger/pkg/cassandra/metrics"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
 )
 
 const (

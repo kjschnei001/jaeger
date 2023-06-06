@@ -23,8 +23,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2"
+	"github.com/kjschnei001/jaeger/model"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2"
 )
 
 // GrpcCollector is a mock collector for tests

@@ -18,7 +18,7 @@ package adjuster
 import (
 	"errors"
 
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/kjschnei001/jaeger/model"
 )
 
 // Adjuster applies certain modifications to a Trace object.

@@ -14,13 +14,13 @@ If you find something suspicious and want to report it, we'd really appreciate!
 
 ## Ways to report
 
-The easiest way to report a vulnerability is through the [Security tab on GitHub](https://github.com/jaegertracing/jaeger/security/advisories). This mechanism allows maintainers to communicate privately with you, and you do not need to encrypt your messages.
+The easiest way to report a vulnerability is through the [Security tab on GitHub](https://github.com/kjschnei001/jaeger/security/advisories). This mechanism allows maintainers to communicate privately with you, and you do not need to encrypt your messages.
 
 Alternatively, you can use one of the following public channels to send an **encrypted** message to maintainers:
 
 * Chat room on the [#jaeger channel at the CNCF Slack][slack-room]
 * Send a message to [jaeger-tracing@googlegroups.com][mailing-list]
-* [Open an issue on GitHub](https://github.com/jaegertracing/jaeger/issues)
+* [Open an issue on GitHub](https://github.com/kjschnei001/jaeger/issues)
 
 You can also submit a fix to the issue by forking the affected repository and sending us a pull request. However, we prefer you'd talk to us first, as our repositories are public and we would like to give a heads-up to our users before disclosing vulnerabilities publicly.
 

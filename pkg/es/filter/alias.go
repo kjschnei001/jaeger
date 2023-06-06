@@ -15,7 +15,7 @@
 package filter
 
 import (
-	"github.com/jaegertracing/jaeger/pkg/es/client"
+	"github.com/kjschnei001/jaeger/pkg/es/client"
 )
 
 // AliasExists check if the some of indices has a certain alias name

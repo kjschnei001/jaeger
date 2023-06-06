@@ -20,8 +20,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2"
-	"github.com/jaegertracing/jaeger/thrift-gen/baggage"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2"
+	"github.com/kjschnei001/jaeger/thrift-gen/baggage"
 )
 
 // ConfigManagerProxy returns sampling decisions from collector over gRPC.

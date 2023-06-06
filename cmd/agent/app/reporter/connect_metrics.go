@@ -17,7 +17,7 @@ package reporter
 import (
 	"expvar"
 
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
 )
 
 type connectMetrics struct {

@@ -4,7 +4,7 @@ Service Performance Monitoring (SPM) is an opt-in feature introduced to Jaeger t
 (RED) metrics grouped by service name and operation that are derived from span data. These metrics are programmatically
 available through an API exposed by jaeger-query along with a "Monitor" UI tab that visualizes these metrics as graphs.
 
-For more details on this feature, please refer to the [tracking Issue](https://github.com/jaegertracing/jaeger/issues/2954)
+For more details on this feature, please refer to the [tracking Issue](https://github.com/kjschnei001/jaeger/issues/2954)
 documenting the proposal and status.
 
 The motivation for providing this environment is to allow developers to either test Jaeger UI or their own applications
@@ -245,7 +245,7 @@ e.g. a min step of 1 means the backend can only return data points that are at l
 
 ## Responses
 
-The response data model is based on [`MetricsFamily`](https://github.com/jaegertracing/jaeger/blob/main/model/proto/metrics/openmetrics.proto#L53).
+The response data model is based on [`MetricsFamily`](https://github.com/kjschnei001/jaeger/blob/main/model/proto/metrics/openmetrics.proto#L53).
 
 For example:
 ```

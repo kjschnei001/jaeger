@@ -23,15 +23,15 @@ import (
 	"github.com/stretchr/testify/mock"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sampling/model"
-	ss "github.com/jaegertracing/jaeger/cmd/collector/app/sampling/strategystore"
-	"github.com/jaegertracing/jaeger/pkg/config"
-	"github.com/jaegertracing/jaeger/pkg/distributedlock"
-	lmocks "github.com/jaegertracing/jaeger/pkg/distributedlock/mocks"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/plugin"
-	"github.com/jaegertracing/jaeger/storage/samplingstore"
-	smocks "github.com/jaegertracing/jaeger/storage/samplingstore/mocks"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/sampling/model"
+	ss "github.com/kjschnei001/jaeger/cmd/collector/app/sampling/strategystore"
+	"github.com/kjschnei001/jaeger/pkg/config"
+	"github.com/kjschnei001/jaeger/pkg/distributedlock"
+	lmocks "github.com/kjschnei001/jaeger/pkg/distributedlock/mocks"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/plugin"
+	"github.com/kjschnei001/jaeger/storage/samplingstore"
+	smocks "github.com/kjschnei001/jaeger/storage/samplingstore/mocks"
 )
 
 var (

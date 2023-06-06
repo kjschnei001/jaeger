@@ -1,4 +1,4 @@
-module github.com/jaegertracing/jaeger
+module github.com/kjschnei001/jaeger
 
 go 1.20
 

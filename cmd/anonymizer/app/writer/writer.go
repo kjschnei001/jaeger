@@ -24,8 +24,8 @@ import (
 	"github.com/gogo/protobuf/jsonpb"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/anonymizer/app/anonymizer"
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/kjschnei001/jaeger/cmd/anonymizer/app/anonymizer"
+	"github.com/kjschnei001/jaeger/model"
 )
 
 // Config contains parameters to NewWriter.

@@ -17,9 +17,9 @@ package reporter
 import (
 	"context"
 
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/thrift-gen/jaeger"
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/thrift-gen/jaeger"
+	"github.com/kjschnei001/jaeger/thrift-gen/zipkincore"
 )
 
 const (

@@ -25,17 +25,17 @@ import (
 	_ "go.uber.org/automaxprocs"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/docs"
-	"github.com/jaegertracing/jaeger/cmd/env"
-	"github.com/jaegertracing/jaeger/cmd/flags"
-	"github.com/jaegertracing/jaeger/cmd/ingester/app"
-	"github.com/jaegertracing/jaeger/cmd/ingester/app/builder"
-	"github.com/jaegertracing/jaeger/cmd/status"
-	"github.com/jaegertracing/jaeger/pkg/config"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/pkg/version"
-	"github.com/jaegertracing/jaeger/plugin/storage"
-	"github.com/jaegertracing/jaeger/ports"
+	"github.com/kjschnei001/jaeger/cmd/docs"
+	"github.com/kjschnei001/jaeger/cmd/env"
+	"github.com/kjschnei001/jaeger/cmd/flags"
+	"github.com/kjschnei001/jaeger/cmd/ingester/app"
+	"github.com/kjschnei001/jaeger/cmd/ingester/app/builder"
+	"github.com/kjschnei001/jaeger/cmd/status"
+	"github.com/kjschnei001/jaeger/pkg/config"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/pkg/version"
+	"github.com/kjschnei001/jaeger/plugin/storage"
+	"github.com/kjschnei001/jaeger/ports"
 )
 
 func main() {
