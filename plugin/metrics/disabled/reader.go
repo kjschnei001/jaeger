@@ -18,8 +18,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2/metrics"
-	"github.com/jaegertracing/jaeger/storage/metricsstore"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2/metrics"
+	"github.com/kjschnei001/jaeger/storage/metricsstore"
 )
 
 type (

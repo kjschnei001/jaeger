@@ -22,7 +22,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jaegertracing/jaeger/pkg/config"
+	"github.com/kjschnei001/jaeger/pkg/config"
 )
 
 func TestOptions(t *testing.T) {

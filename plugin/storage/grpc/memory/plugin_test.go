@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jaegertracing/jaeger/plugin/storage/memory"
+	"github.com/kjschnei001/jaeger/plugin/storage/memory"
 )
 
 func TestPluginUsesMemoryStorage(t *testing.T) {

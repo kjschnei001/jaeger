@@ -33,7 +33,7 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/jaegertracing/jaeger/pkg/testutils"
+	"github.com/kjschnei001/jaeger/pkg/testutils"
 )
 
 //go:generate mockery -all -dir ../../../pkg/fswatcher
@@ -234,7 +234,7 @@ func TestLoadUIConfig(t *testing.T) {
 		"menu": []interface{}{
 			map[string]interface{}{
 				"label": "GitHub",
-				"url":   "https://github.com/jaegertracing/jaeger",
+				"url":   "https://github.com/kjschnei001/jaeger",
 			},
 		},
 	})
@@ -269,7 +269,7 @@ func TestLoadUIConfig(t *testing.T) {
     menu: [
       {
         label: "GitHub",
-        url: "https://github.com/jaegertracing/jaeger"
+        url: "https://github.com/kjschnei001/jaeger"
       }
     ]
   }

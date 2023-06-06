@@ -22,13 +22,13 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/plugin"
-	"github.com/jaegertracing/jaeger/plugin/storage/grpc/config"
-	"github.com/jaegertracing/jaeger/plugin/storage/grpc/shared"
-	"github.com/jaegertracing/jaeger/storage"
-	"github.com/jaegertracing/jaeger/storage/dependencystore"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/plugin"
+	"github.com/kjschnei001/jaeger/plugin/storage/grpc/config"
+	"github.com/kjschnei001/jaeger/plugin/storage/grpc/shared"
+	"github.com/kjschnei001/jaeger/storage"
+	"github.com/kjschnei001/jaeger/storage/dependencystore"
+	"github.com/kjschnei001/jaeger/storage/spanstore"
 )
 
 var (

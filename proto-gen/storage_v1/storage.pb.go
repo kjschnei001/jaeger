@@ -10,8 +10,8 @@ import (
 	proto "github.com/gogo/protobuf/proto"
 	_ "github.com/gogo/protobuf/types"
 	github_com_gogo_protobuf_types "github.com/gogo/protobuf/types"
-	github_com_jaegertracing_jaeger_model "github.com/jaegertracing/jaeger/model"
-	model "github.com/jaegertracing/jaeger/model"
+	github_com_jaegertracing_jaeger_model "github.com/kjschnei001/jaeger/model"
+	model "github.com/kjschnei001/jaeger/model"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
@@ -303,7 +303,7 @@ func (m *CloseWriterResponse) XXX_DiscardUnknown() {
 var xxx_messageInfo_CloseWriterResponse proto.InternalMessageInfo
 
 type GetTraceRequest struct {
-	TraceID              github_com_jaegertracing_jaeger_model.TraceID `protobuf:"bytes,1,opt,name=trace_id,json=traceId,proto3,customtype=github.com/jaegertracing/jaeger/model.TraceID" json:"trace_id"`
+	TraceID              github_com_jaegertracing_jaeger_model.TraceID `protobuf:"bytes,1,opt,name=trace_id,json=traceId,proto3,customtype=github.com/kjschnei001/jaeger/model.TraceID" json:"trace_id"`
 	XXX_NoUnkeyedLiteral struct{}                                      `json:"-"`
 	XXX_unrecognized     []byte                                        `json:"-"`
 	XXX_sizecache        int32                                         `json:"-"`
@@ -838,7 +838,7 @@ func (m *FindTraceIDsRequest) GetQuery() *TraceQueryParameters {
 }
 
 type FindTraceIDsResponse struct {
-	TraceIDs             []github_com_jaegertracing_jaeger_model.TraceID `protobuf:"bytes,1,rep,name=trace_ids,json=traceIds,proto3,customtype=github.com/jaegertracing/jaeger/model.TraceID" json:"trace_ids"`
+	TraceIDs             []github_com_jaegertracing_jaeger_model.TraceID `protobuf:"bytes,1,rep,name=trace_ids,json=traceIds,proto3,customtype=github.com/kjschnei001/jaeger/model.TraceID" json:"trace_ids"`
 	XXX_NoUnkeyedLiteral struct{}                                        `json:"-"`
 	XXX_unrecognized     []byte                                          `json:"-"`
 	XXX_sizecache        int32                                           `json:"-"`

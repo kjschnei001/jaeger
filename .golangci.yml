@@ -5,7 +5,7 @@ issues:
     - path: _test\.go
       linters: [gosec]
 
-    # See https://github.com/jaegertracing/jaeger/issues/4488
+    # See https://github.com/kjschnei001/jaeger/issues/4488
     - path: internal/grpctest/
       linters: [staticcheck]
 
@@ -41,7 +41,7 @@ linters-settings:
     packages-with-error-message:
       - io/ioutil: "Use os or io instead of io/ioutil"
   goimports:
-    local-prefixes: github.com/jaegertracing/jaeger
+    local-prefixes: github.com/kjschnei001/jaeger
   gosec:
     # To specify a set of rules to explicitly exclude.
     # Available rules: https://github.com/securego/gosec#available-rules

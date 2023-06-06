@@ -22,8 +22,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jaegertracing/jaeger/model"
-	ui "github.com/jaegertracing/jaeger/model/json"
+	"github.com/kjschnei001/jaeger/model"
+	ui "github.com/kjschnei001/jaeger/model/json"
 )
 
 func TestDeduplicateDependencies(t *testing.T) {

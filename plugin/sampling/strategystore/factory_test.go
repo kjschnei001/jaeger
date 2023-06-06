@@ -25,12 +25,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	ss "github.com/jaegertracing/jaeger/cmd/collector/app/sampling/strategystore"
-	"github.com/jaegertracing/jaeger/pkg/distributedlock"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/plugin"
-	"github.com/jaegertracing/jaeger/storage"
-	"github.com/jaegertracing/jaeger/storage/samplingstore"
+	ss "github.com/kjschnei001/jaeger/cmd/collector/app/sampling/strategystore"
+	"github.com/kjschnei001/jaeger/pkg/distributedlock"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/plugin"
+	"github.com/kjschnei001/jaeger/storage"
+	"github.com/kjschnei001/jaeger/storage/samplingstore"
 )
 
 var (

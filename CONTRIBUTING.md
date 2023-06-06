@@ -90,7 +90,7 @@ steps into a single `make` command.
 These are general guidelines on how to organize source code in this repository.
 
 ```
-github.com/jaegertracing/jaeger
+github.com/kjschnei001/jaeger
   cmd/                      - All binaries go here
     agent/
       app/                  - The actual code for the binary
@@ -101,8 +101,8 @@ github.com/jaegertracing/jaeger
   crossdock/                - Cross-repo integration test configuration
   examples/
       hotrod/               - Demo application that uses OpenTracing API
-  idl/                      - (submodule) https://github.com/jaegertracing/jaeger-idl
-  jaeger-ui/                - (submodule) https://github.com/jaegertracing/jaeger-ui
+  idl/                      - (submodule) https://github.com/kjschnei001/jaeger-idl
+  jaeger-ui/                - (submodule) https://github.com/kjschnei001/jaeger-ui
   model/                    - Where models are kept, e.g. Process, Span, Trace
   pkg/                      - (See Note 1)
   plugin/                   - Swappable implementations of various components
@@ -147,8 +147,8 @@ import (
 	"github.com/uber/jaeger-lib/metrics"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/agent/app"
-	"github.com/jaegertracing/jaeger/cmd/collector/app/builder"
+	"github.com/kjschnei001/jaeger/cmd/agent/app"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/builder"
 )
 ```
 

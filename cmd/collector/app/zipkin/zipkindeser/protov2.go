@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"net"
 
-	model "github.com/jaegertracing/jaeger/model"
-	zipkinProto "github.com/jaegertracing/jaeger/proto-gen/zipkin"
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	model "github.com/kjschnei001/jaeger/model"
+	zipkinProto "github.com/kjschnei001/jaeger/proto-gen/zipkin"
+	"github.com/kjschnei001/jaeger/thrift-gen/zipkincore"
 )
 
 // ProtoSpansV2ToThrift converts Zipkin Protobuf spans to Thrift model

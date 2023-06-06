@@ -27,13 +27,13 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/jaegertracing/jaeger/cmd/query/app/querysvc"
-	"github.com/jaegertracing/jaeger/model"
-	_ "github.com/jaegertracing/jaeger/pkg/gogocodec" // force gogo codec registration
-	"github.com/jaegertracing/jaeger/proto-gen/api_v3"
-	dependencyStoreMocks "github.com/jaegertracing/jaeger/storage/dependencystore/mocks"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
-	spanstoremocks "github.com/jaegertracing/jaeger/storage/spanstore/mocks"
+	"github.com/kjschnei001/jaeger/cmd/query/app/querysvc"
+	"github.com/kjschnei001/jaeger/model"
+	_ "github.com/kjschnei001/jaeger/pkg/gogocodec" // force gogo codec registration
+	"github.com/kjschnei001/jaeger/proto-gen/api_v3"
+	dependencyStoreMocks "github.com/kjschnei001/jaeger/storage/dependencystore/mocks"
+	"github.com/kjschnei001/jaeger/storage/spanstore"
+	spanstoremocks "github.com/kjschnei001/jaeger/storage/spanstore/mocks"
 )
 
 func newGrpcServer(t *testing.T, handler *Handler) (*grpc.Server, net.Addr) {

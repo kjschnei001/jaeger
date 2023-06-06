@@ -6,7 +6,7 @@ This example combines the Hot R.O.D. demo application ([examples/hotrod/](../hot
 
 ### Prerequisites
 
-* Clone the Jaeger repository `git clone https://github.com/jaegertracing/jaeger.git`, then `cd examples/grafana-integration`
+* Clone the Jaeger repository `git clone https://github.com/kjschnei001/jaeger.git`, then `cd examples/grafana-integration`
 
 * All services will log to Loki via the [official Docker driver plugin](https://grafana.com/docs/loki/latest/clients/docker-driver/).
 Install the Loki logging plugin for Docker:

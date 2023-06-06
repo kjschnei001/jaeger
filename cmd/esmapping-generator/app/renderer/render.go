@@ -17,9 +17,9 @@ package renderer
 import (
 	"strconv"
 
-	"github.com/jaegertracing/jaeger/cmd/esmapping-generator/app"
-	"github.com/jaegertracing/jaeger/pkg/es"
-	"github.com/jaegertracing/jaeger/plugin/storage/es/mappings"
+	"github.com/kjschnei001/jaeger/cmd/esmapping-generator/app"
+	"github.com/kjschnei001/jaeger/pkg/es"
+	"github.com/kjschnei001/jaeger/plugin/storage/es/mappings"
 )
 
 var supportedMappings = map[string]struct{}{

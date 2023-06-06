@@ -30,14 +30,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/model"
-	estemplate "github.com/jaegertracing/jaeger/pkg/es"
-	eswrapper "github.com/jaegertracing/jaeger/pkg/es/wrapper"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/pkg/testutils"
-	"github.com/jaegertracing/jaeger/plugin/storage/es/dependencystore"
-	"github.com/jaegertracing/jaeger/plugin/storage/es/mappings"
-	"github.com/jaegertracing/jaeger/plugin/storage/es/spanstore"
+	"github.com/kjschnei001/jaeger/model"
+	estemplate "github.com/kjschnei001/jaeger/pkg/es"
+	eswrapper "github.com/kjschnei001/jaeger/pkg/es/wrapper"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/pkg/testutils"
+	"github.com/kjschnei001/jaeger/plugin/storage/es/dependencystore"
+	"github.com/kjschnei001/jaeger/plugin/storage/es/mappings"
+	"github.com/kjschnei001/jaeger/plugin/storage/es/spanstore"
 )
 
 const (

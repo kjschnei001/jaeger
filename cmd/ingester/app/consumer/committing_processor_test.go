@@ -21,8 +21,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	kafka "github.com/jaegertracing/jaeger/cmd/ingester/app/consumer/mocks"
-	"github.com/jaegertracing/jaeger/cmd/ingester/app/processor/mocks"
+	kafka "github.com/kjschnei001/jaeger/cmd/ingester/app/consumer/mocks"
+	"github.com/kjschnei001/jaeger/cmd/ingester/app/processor/mocks"
 )
 
 type fakeOffsetMarker struct {

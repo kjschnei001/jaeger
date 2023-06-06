@@ -16,7 +16,7 @@
 package zipkindeser
 
 import (
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	"github.com/kjschnei001/jaeger/thrift-gen/zipkincore"
 )
 
 // IsServerCore checks to see if an annotation is a core server annotation

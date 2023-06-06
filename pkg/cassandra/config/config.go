@@ -22,9 +22,9 @@ import (
 	"github.com/gocql/gocql"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/cassandra"
-	gocqlw "github.com/jaegertracing/jaeger/pkg/cassandra/gocql"
-	"github.com/jaegertracing/jaeger/pkg/config/tlscfg"
+	"github.com/kjschnei001/jaeger/pkg/cassandra"
+	gocqlw "github.com/kjschnei001/jaeger/pkg/cassandra/gocql"
+	"github.com/kjschnei001/jaeger/pkg/config/tlscfg"
 )
 
 // Configuration describes the configuration properties needed to connect to a Cassandra cluster

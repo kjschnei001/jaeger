@@ -19,9 +19,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/es-rollover/app"
-	"github.com/jaegertracing/jaeger/pkg/es/client"
-	"github.com/jaegertracing/jaeger/pkg/es/filter"
+	"github.com/kjschnei001/jaeger/cmd/es-rollover/app"
+	"github.com/kjschnei001/jaeger/pkg/es/client"
+	"github.com/kjschnei001/jaeger/pkg/es/filter"
 )
 
 var timeNow func() time.Time = time.Now

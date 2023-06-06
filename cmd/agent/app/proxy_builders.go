@@ -15,7 +15,7 @@
 package app
 
 import (
-	"github.com/jaegertracing/jaeger/cmd/agent/app/reporter/grpc"
+	"github.com/kjschnei001/jaeger/cmd/agent/app/reporter/grpc"
 )
 
 // GRPCCollectorProxyBuilder creates CollectorProxyBuilder for GRPC reporter

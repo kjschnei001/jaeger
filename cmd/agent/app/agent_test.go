@@ -28,10 +28,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/internal/metrics/fork"
-	"github.com/jaegertracing/jaeger/internal/metrics/metricsbuilder"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/pkg/testutils"
+	"github.com/kjschnei001/jaeger/internal/metrics/fork"
+	"github.com/kjschnei001/jaeger/internal/metrics/metricsbuilder"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/pkg/testutils"
 )
 
 func TestAgentStartError(t *testing.T) {
@@ -164,7 +164,7 @@ func TestStartStopRace(t *testing.T) {
 
 	// This test attempts to hit the data race bug when Stop() is called
 	// immediately after Run(). We had a bug like that which is now fixed:
-	// https://github.com/jaegertracing/jaeger/issues/1624
+	// https://github.com/kjschnei001/jaeger/issues/1624
 	// Before the bug was fixed this test was failing as expected when
 	// run with -race flag.
 

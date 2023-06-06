@@ -15,12 +15,12 @@
 package adjuster
 
 import (
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/kjschnei001/jaeger/model"
 )
 
 // ParentReference returns an Adjuster that puts CHILD_OF references first.
 // This is necessary to match jaeger-ui expectations:
-// * https://github.com/jaegertracing/jaeger-ui/issues/966
+// * https://github.com/kjschnei001/jaeger-ui/issues/966
 func ParentReference() Adjuster {
 	return Func(func(trace *model.Trace) (*model.Trace, error) {
 		for _, span := range trace.Spans {

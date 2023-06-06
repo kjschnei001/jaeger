@@ -35,9 +35,9 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.7.0"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/examples/hotrod/pkg/log"
-	"github.com/jaegertracing/jaeger/examples/hotrod/pkg/tracing/rpcmetrics"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/examples/hotrod/pkg/log"
+	"github.com/kjschnei001/jaeger/examples/hotrod/pkg/tracing/rpcmetrics"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
 )
 
 var once sync.Once

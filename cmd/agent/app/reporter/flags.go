@@ -21,8 +21,8 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/all-in-one/setupcontext"
-	"github.com/jaegertracing/jaeger/cmd/flags"
+	"github.com/kjschnei001/jaeger/cmd/all-in-one/setupcontext"
+	"github.com/kjschnei001/jaeger/cmd/flags"
 )
 
 const (

@@ -16,7 +16,7 @@
 package dbmodel
 
 import (
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/kjschnei001/jaeger/model"
 )
 
 // GetAllUniqueTags creates a list of all unique tags from a set of filtered tags.

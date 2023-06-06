@@ -19,7 +19,7 @@ import (
 	"embed"
 	"strings"
 
-	"github.com/jaegertracing/jaeger/pkg/es"
+	"github.com/kjschnei001/jaeger/pkg/es"
 )
 
 // MAPPINGS contains embedded index templates.

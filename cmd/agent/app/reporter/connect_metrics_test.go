@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jaegertracing/jaeger/internal/metricstest"
+	"github.com/kjschnei001/jaeger/internal/metricstest"
 )
 
 func TestConnectMetrics(t *testing.T) {

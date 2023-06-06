@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/kjschnei001/jaeger/storage/spanstore"
 )
 
 func Test_getUniqueOperationNames(t *testing.T) {

@@ -23,7 +23,7 @@ import (
 
 	"go.uber.org/zap"
 
-	uimodel "github.com/jaegertracing/jaeger/model/json"
+	uimodel "github.com/kjschnei001/jaeger/model/json"
 )
 
 // Reader loads previously captured spans from a file.

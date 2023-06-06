@@ -21,7 +21,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
 )
 
 // deadlockDetector monitors the messages consumed and wither signals for the partition to be closed by sending a
@@ -35,7 +35,7 @@ import (
 // container management system (k8s, aurora, marathon, etc) to reschedule
 // the dead instance.
 //
-// This hack protects jaeger-ingester from issues described in  https://github.com/jaegertracing/jaeger/issues/1052
+// This hack protects jaeger-ingester from issues described in  https://github.com/kjschnei001/jaeger/issues/1052
 type deadlockDetector struct {
 	metricsFactory                metrics.Factory
 	logger                        *zap.Logger

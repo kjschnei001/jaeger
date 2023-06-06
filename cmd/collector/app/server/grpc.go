@@ -27,11 +27,11 @@ import (
 	"google.golang.org/grpc/keepalive"
 	"google.golang.org/grpc/reflection"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/handler"
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sampling"
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sampling/strategystore"
-	"github.com/jaegertracing/jaeger/pkg/config/tlscfg"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/handler"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/sampling"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/sampling/strategystore"
+	"github.com/kjschnei001/jaeger/pkg/config/tlscfg"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2"
 )
 
 // GRPCServerParams to construct a new Jaeger Collector gRPC Server

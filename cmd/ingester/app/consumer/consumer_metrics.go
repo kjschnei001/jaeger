@@ -17,7 +17,7 @@ package consumer
 import (
 	"strconv"
 
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
 )
 
 const consumerNamespace = "sarama-consumer"

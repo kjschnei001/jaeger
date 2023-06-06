@@ -22,10 +22,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	semconv "go.opentelemetry.io/collector/semconv/v1.5.0"
 
-	"github.com/jaegertracing/jaeger/model"
-	commonv1 "github.com/jaegertracing/jaeger/proto-gen/otel/common/v1"
-	resourcev1 "github.com/jaegertracing/jaeger/proto-gen/otel/resource/v1"
-	v1 "github.com/jaegertracing/jaeger/proto-gen/otel/trace/v1"
+	"github.com/kjschnei001/jaeger/model"
+	commonv1 "github.com/kjschnei001/jaeger/proto-gen/otel/common/v1"
+	resourcev1 "github.com/kjschnei001/jaeger/proto-gen/otel/resource/v1"
+	v1 "github.com/kjschnei001/jaeger/proto-gen/otel/trace/v1"
 )
 
 var ts = time.Date(2021, 6, 14, 6, 0, 0, 0, time.UTC)

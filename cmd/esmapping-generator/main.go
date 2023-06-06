@@ -21,10 +21,10 @@ import (
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/esmapping-generator/app"
-	"github.com/jaegertracing/jaeger/cmd/esmapping-generator/app/renderer"
-	"github.com/jaegertracing/jaeger/pkg/es"
-	"github.com/jaegertracing/jaeger/pkg/version"
+	"github.com/kjschnei001/jaeger/cmd/esmapping-generator/app"
+	"github.com/kjschnei001/jaeger/cmd/esmapping-generator/app/renderer"
+	"github.com/kjschnei001/jaeger/pkg/es"
+	"github.com/kjschnei001/jaeger/pkg/version"
 )
 
 func main() {

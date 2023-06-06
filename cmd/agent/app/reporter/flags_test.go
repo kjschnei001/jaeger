@@ -25,7 +25,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/all-in-one/setupcontext"
+	"github.com/kjschnei001/jaeger/cmd/all-in-one/setupcontext"
 )
 
 func TestBindFlags_NoJaegerTags(t *testing.T) {

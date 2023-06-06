@@ -24,8 +24,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/atomic"
 
-	lmocks "github.com/jaegertracing/jaeger/pkg/distributedlock/mocks"
-	"github.com/jaegertracing/jaeger/pkg/testutils"
+	lmocks "github.com/kjschnei001/jaeger/pkg/distributedlock/mocks"
+	"github.com/kjschnei001/jaeger/pkg/testutils"
 )
 
 var errTestLock = errors.New("lock error")

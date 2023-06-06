@@ -24,11 +24,11 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/jaegertracing/jaeger/examples/hotrod/services/config"
-	"github.com/jaegertracing/jaeger/internal/jaegerclientenv2otel"
-	"github.com/jaegertracing/jaeger/internal/metrics/expvar"
-	"github.com/jaegertracing/jaeger/internal/metrics/prometheus"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/examples/hotrod/services/config"
+	"github.com/kjschnei001/jaeger/internal/jaegerclientenv2otel"
+	"github.com/kjschnei001/jaeger/internal/metrics/expvar"
+	"github.com/kjschnei001/jaeger/internal/metrics/prometheus"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
 )
 
 var (

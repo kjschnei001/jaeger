@@ -1,5 +1,5 @@
 SHELL := /bin/bash
-JAEGER_IMPORT_PATH = github.com/jaegertracing/jaeger
+JAEGER_IMPORT_PATH = github.com/kjschnei001/jaeger
 STORAGE_PKGS = ./plugin/storage/integration/...
 GO = go
 
@@ -457,7 +457,7 @@ PROTO_GOGO_MAPPINGS := $(shell echo \
 		Mgoogle/protobuf/duration.proto=github.com/gogo/protobuf/types, \
 		Mgoogle/protobuf/empty.proto=github.com/gogo/protobuf/types, \
 		Mgoogle/api/annotations.proto=github.com/gogo/googleapis/google/api, \
-		Mmodel.proto=github.com/jaegertracing/jaeger/model \
+		Mmodel.proto=github.com/kjschnei001/jaeger/model \
 	| sed 's/ //g')
 
 .PHONY: proto
@@ -561,7 +561,7 @@ proto: init-submodules proto-prepare-otel
 	# prevents panic of two equal proto types.
 	rm -rf $(PROTO_INTERMEDIATE_DIR)/*
 	cp -R idl/opentelemetry-proto/* $(PROTO_INTERMEDIATE_DIR)
-	find $(PROTO_INTERMEDIATE_DIR) -name "*.proto" | xargs -L 1 sed -i 's+go.opentelemetry.io/proto/otlp+github.com/jaegertracing/jaeger/proto-gen/otel+g'
+	find $(PROTO_INTERMEDIATE_DIR) -name "*.proto" | xargs -L 1 sed -i 's+go.opentelemetry.io/proto/otlp+github.com/kjschnei001/jaeger/proto-gen/otel+g'
 	$(PROTOC) \
 		$(PROTO_INCLUDES) \
 		--gogo_out=plugins=grpc,$(PROTO_GOGO_MAPPINGS):$(PWD)/proto-gen/api_v3 \
@@ -584,7 +584,7 @@ proto-prepare-otel:
 	@echo -- Editing proto
 	@echo --
 	@# Change:
-	@# go import from github.com/open-telemetry/opentelemetry-proto/gen/go/* to github.com/jaegertracing/jaeger/proto-gen/otel/*
+	@# go import from github.com/open-telemetry/opentelemetry-proto/gen/go/* to github.com/kjschnei001/jaeger/proto-gen/otel/*
 	@# proto package from opentelemetry.proto.* to jaeger.proto.*
 	@# remove import opentelemetry/proto
 	find $(PROTO_INTERMEDIATE_DIR) -name "*.proto" | xargs -L 1 sed -i -f otel_proto_patch.sed

@@ -21,7 +21,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/storage"
+	"github.com/kjschnei001/jaeger/storage"
 )
 
 var _ storage.MetricsFactory = new(Factory)

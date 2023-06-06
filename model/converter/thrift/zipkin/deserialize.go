@@ -20,7 +20,7 @@ import (
 
 	"github.com/apache/thrift/lib/go/thrift"
 
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	"github.com/kjschnei001/jaeger/thrift-gen/zipkincore"
 )
 
 // SerializeThrift is only used in tests.

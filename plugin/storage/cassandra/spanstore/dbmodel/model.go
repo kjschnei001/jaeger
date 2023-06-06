@@ -19,7 +19,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/kjschnei001/jaeger/model"
 )
 
 const (

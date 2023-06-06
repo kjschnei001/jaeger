@@ -14,7 +14,7 @@
 
 package version
 
-import "github.com/jaegertracing/jaeger/pkg/metrics"
+import "github.com/kjschnei001/jaeger/pkg/metrics"
 
 var (
 	// commitFromGit is a constant representing the source version that

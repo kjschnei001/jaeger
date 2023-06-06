@@ -23,7 +23,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2/metrics"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2/metrics"
 )
 
 func TestToDomainMetricsFamily(t *testing.T) {

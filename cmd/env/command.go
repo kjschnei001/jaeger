@@ -21,9 +21,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/jaegertracing/jaeger/plugin/metrics"
-	"github.com/jaegertracing/jaeger/plugin/sampling/strategystore"
-	"github.com/jaegertracing/jaeger/plugin/storage"
+	"github.com/kjschnei001/jaeger/plugin/metrics"
+	"github.com/kjschnei001/jaeger/plugin/sampling/strategystore"
+	"github.com/kjschnei001/jaeger/plugin/storage"
 )
 
 const (

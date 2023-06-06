@@ -19,7 +19,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/kjschnei001/jaeger/model"
 )
 
 // CompositeWriter is a span Writer that tries to save spans into several underlying span Writers

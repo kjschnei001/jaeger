@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jaegertracing/jaeger/pkg/testutils"
+	"github.com/kjschnei001/jaeger/pkg/testutils"
 )
 
 func TestNewRecoveryHandler(t *testing.T) {

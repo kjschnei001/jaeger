@@ -22,7 +22,7 @@ import (
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 
-	dl "github.com/jaegertracing/jaeger/pkg/distributedlock"
+	dl "github.com/kjschnei001/jaeger/pkg/distributedlock"
 )
 
 const (

@@ -25,9 +25,9 @@ import (
 	"github.com/olivere/elastic"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/pkg/es"
-	"github.com/jaegertracing/jaeger/plugin/storage/es/dependencystore/dbmodel"
+	"github.com/kjschnei001/jaeger/model"
+	"github.com/kjschnei001/jaeger/pkg/es"
+	"github.com/kjschnei001/jaeger/plugin/storage/es/dependencystore/dbmodel"
 )
 
 const (

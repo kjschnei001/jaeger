@@ -22,7 +22,7 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/jaegertracing/jaeger/ports"
+	"github.com/kjschnei001/jaeger/ports"
 )
 
 const (

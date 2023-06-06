@@ -24,15 +24,15 @@ import (
 	"github.com/apache/thrift/lib/go/thrift"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/agent/app/configmanager"
-	"github.com/jaegertracing/jaeger/cmd/agent/app/httpserver"
-	"github.com/jaegertracing/jaeger/cmd/agent/app/processors"
-	"github.com/jaegertracing/jaeger/cmd/agent/app/reporter"
-	"github.com/jaegertracing/jaeger/cmd/agent/app/servers"
-	"github.com/jaegertracing/jaeger/cmd/agent/app/servers/thriftudp"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/ports"
-	agentThrift "github.com/jaegertracing/jaeger/thrift-gen/agent"
+	"github.com/kjschnei001/jaeger/cmd/agent/app/configmanager"
+	"github.com/kjschnei001/jaeger/cmd/agent/app/httpserver"
+	"github.com/kjschnei001/jaeger/cmd/agent/app/processors"
+	"github.com/kjschnei001/jaeger/cmd/agent/app/reporter"
+	"github.com/kjschnei001/jaeger/cmd/agent/app/servers"
+	"github.com/kjschnei001/jaeger/cmd/agent/app/servers/thriftudp"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/ports"
+	agentThrift "github.com/kjschnei001/jaeger/thrift-gen/agent"
 )
 
 const (

@@ -16,7 +16,7 @@
 package zipkin
 
 import (
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/kjschnei001/jaeger/model"
 )
 
 type processHashtable struct {

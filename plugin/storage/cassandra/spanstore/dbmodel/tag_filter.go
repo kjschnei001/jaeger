@@ -16,7 +16,7 @@
 package dbmodel
 
 import (
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/kjschnei001/jaeger/model"
 )
 
 // TagFilter filters out any tags that should not be indexed.

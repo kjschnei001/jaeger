@@ -22,7 +22,7 @@ import (
 	cluster "github.com/bsm/sarama-cluster"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/kafka/auth"
+	"github.com/kjschnei001/jaeger/pkg/kafka/auth"
 )
 
 // Consumer is an interface to features of Sarama that are necessary for the consumer

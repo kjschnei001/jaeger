@@ -36,11 +36,11 @@ import (
 	jaegerClient "github.com/uber/jaeger-client-go"
 	zipkinTransport "github.com/uber/jaeger-client-go/transport/zipkin"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/handler"
-	zm "github.com/jaegertracing/jaeger/cmd/collector/app/zipkin/zipkindeser/zipkindesermocks"
-	zipkinTrift "github.com/jaegertracing/jaeger/model/converter/thrift/zipkin"
-	zipkinProto "github.com/jaegertracing/jaeger/proto-gen/zipkin"
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/handler"
+	zm "github.com/kjschnei001/jaeger/cmd/collector/app/zipkin/zipkindeser/zipkindesermocks"
+	zipkinTrift "github.com/kjschnei001/jaeger/model/converter/thrift/zipkin"
+	zipkinProto "github.com/kjschnei001/jaeger/proto-gen/zipkin"
+	"github.com/kjschnei001/jaeger/thrift-gen/zipkincore"
 )
 
 var httpClient = &http.Client{Timeout: 2 * time.Second}

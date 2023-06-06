@@ -26,10 +26,10 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/jaegertracing/jaeger/pkg/config"
-	kafkaConfig "github.com/jaegertracing/jaeger/pkg/kafka/producer"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/storage"
+	"github.com/kjschnei001/jaeger/pkg/config"
+	kafkaConfig "github.com/kjschnei001/jaeger/pkg/kafka/producer"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/storage"
 )
 
 // Checks that Kafka Factory conforms to storage.Factory API

@@ -13,7 +13,7 @@ if [[ "$BRANCH_HASH" == "$LAST_TAG_HASH" ]]; then
     if [[ "$LAST_TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]];  then
         temp_file=$(mktemp)
         trap "rm -f ${temp_file}" EXIT
-        release_url="https://github.com/jaegertracing/jaeger-ui/releases/download/${LAST_TAG}/assets.tar.gz"
+        release_url="https://github.com/kjschnei001/jaeger-ui/releases/download/${LAST_TAG}/assets.tar.gz"
         if curl --silent --fail --location --output "$temp_file" "$release_url"; then
 
             mkdir -p packages/jaeger-ui/build/

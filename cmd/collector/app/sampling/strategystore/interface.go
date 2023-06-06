@@ -18,7 +18,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2"
 )
 
 // StrategyStore keeps track of service specific sampling strategies.

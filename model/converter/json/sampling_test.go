@@ -21,9 +21,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	thriftconv "github.com/jaegertracing/jaeger/model/converter/thrift/jaeger"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2"
-	api_v1 "github.com/jaegertracing/jaeger/thrift-gen/sampling"
+	thriftconv "github.com/kjschnei001/jaeger/model/converter/thrift/jaeger"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2"
+	api_v1 "github.com/kjschnei001/jaeger/thrift-gen/sampling"
 )
 
 func TestSamplingStrategyResponseToJSON_Error(t *testing.T) {

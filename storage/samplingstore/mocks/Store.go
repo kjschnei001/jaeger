@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sampling/model"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/sampling/model"
 )
 
 type Store struct {

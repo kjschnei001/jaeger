@@ -31,15 +31,15 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/query/app/querysvc"
-	"github.com/jaegertracing/jaeger/model"
-	uiconv "github.com/jaegertracing/jaeger/model/converter/json"
-	ui "github.com/jaegertracing/jaeger/model/json"
-	"github.com/jaegertracing/jaeger/pkg/tenancy"
-	"github.com/jaegertracing/jaeger/plugin/metrics/disabled"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2/metrics"
-	"github.com/jaegertracing/jaeger/storage/metricsstore"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/kjschnei001/jaeger/cmd/query/app/querysvc"
+	"github.com/kjschnei001/jaeger/model"
+	uiconv "github.com/kjschnei001/jaeger/model/converter/json"
+	ui "github.com/kjschnei001/jaeger/model/json"
+	"github.com/kjschnei001/jaeger/pkg/tenancy"
+	"github.com/kjschnei001/jaeger/plugin/metrics/disabled"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2/metrics"
+	"github.com/kjschnei001/jaeger/storage/metricsstore"
+	"github.com/kjschnei001/jaeger/storage/spanstore"
 )
 
 const (

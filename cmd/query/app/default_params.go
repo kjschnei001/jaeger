@@ -19,7 +19,7 @@ package app
 import (
 	"time"
 
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2/metrics"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2/metrics"
 )
 
 var (

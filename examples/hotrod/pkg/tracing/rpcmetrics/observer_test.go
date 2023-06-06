@@ -21,14 +21,14 @@ import (
 	"time"
 
 	opentracing "github.com/opentracing/opentracing-go"
+	"github.com/opentracing/opentracing-go/ext"
 	"github.com/stretchr/testify/assert"
 	otbridge "go.opentelemetry.io/otel/bridge/opentracing"
 	"go.opentelemetry.io/otel/sdk/resource"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 	semconv "go.opentelemetry.io/otel/semconv/v1.7.0"
-	"github.com/opentracing/opentracing-go/ext"
 
-	u "github.com/jaegertracing/jaeger/internal/metricstest"
+	u "github.com/kjschnei001/jaeger/internal/metricstest"
 )
 
 type testTracer struct {

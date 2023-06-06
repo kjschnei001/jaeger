@@ -1,6 +1,6 @@
 # Jaeger Backend Release Process
 
-1. Create a PR "Prepare release X.Y.Z" against main or maintenance branch ([example](https://github.com/jaegertracing/jaeger/pull/543/files)) by updating CHANGELOG.md to include:
+1. Create a PR "Prepare release X.Y.Z" against main or maintenance branch ([example](https://github.com/kjschnei001/jaeger/pull/543/files)) by updating CHANGELOG.md to include:
     * A new section with the header `<X.Y.Z> (YYYY-MM-DD)` (copy the template at the top)
     * A curated list of notable changes and links to PRs. Do not simply dump git log, select the changes that affect the users.
       To obtain the list of all changes run `make changelog` or use `scripts/release-notes.py`.
@@ -13,7 +13,7 @@
         git checkout {new_version} //e.g. v1.5.0
         ```
       * Even if a submodule does not have a new release, it should be checked to see if there were any changes warranting cutting a new release and then including it.
-      * If there are no changes, indicate this with "No changes" ([example](https://github.com/jaegertracing/jaeger/pull/4131/files)).
+      * If there are no changes, indicate this with "No changes" ([example](https://github.com/kjschnei001/jaeger/pull/4131/files)).
     * Rotate the below release managers table placing yourself at the bottom. The date should be the first Wednesday of the month.
 2. After the PR is merged, create a release on Github:
     * Automated:
@@ -24,7 +24,7 @@
        * Copy the new CHANGELOG.md section into the release notes
 3. The release tag will trigger a build of the docker images. Since forks don't have jaegertracingbot dockerhub token, they can never publish images to jaegertracing organisation.
    1. Check the images are available on [Docker Hub](https://hub.docker.com/r/jaegertracing/).
-   2. For monitoring and troubleshooting, refer to the [jaegertracing/jaeger GithubActions tab](https://github.com/jaegertracing/jaeger/actions).
+   2. For monitoring and troubleshooting, refer to the [jaegertracing/jaeger GithubActions tab](https://github.com/kjschnei001/jaeger/actions).
 4. [Publish documentation](https://github.com/jaegertracing/documentation/blob/main/RELEASE.md) for the new version in [jaegertracing.io](https://www.jaegertracing.io/docs/latest).
    1. Check [jaegertracing.io](https://www.jaegertracing.io/docs/latest) redirects to the new documentation release version URL.
    2. For monitoring and troubleshooting, refer to the [jaegertracing/documentation GithubActions tab](https://github.com/jaegertracing/documentation/actions).

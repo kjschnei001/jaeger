@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/model/json"
+	"github.com/kjschnei001/jaeger/model"
+	"github.com/kjschnei001/jaeger/model/json"
 )
 
 const (

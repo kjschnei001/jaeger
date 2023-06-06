@@ -32,7 +32,7 @@ import (
 	jaegerClient "github.com/uber/jaeger-client-go"
 	"github.com/uber/jaeger-client-go/transport"
 
-	"github.com/jaegertracing/jaeger/thrift-gen/jaeger"
+	"github.com/kjschnei001/jaeger/thrift-gen/jaeger"
 )
 
 var httpClient = &http.Client{Timeout: 2 * time.Second}

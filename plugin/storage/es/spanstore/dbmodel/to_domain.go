@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/kjschnei001/jaeger/model"
 )
 
 // NewToDomain creates ToDomain

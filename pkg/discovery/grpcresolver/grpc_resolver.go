@@ -26,7 +26,7 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc/resolver"
 
-	"github.com/jaegertracing/jaeger/pkg/discovery"
+	"github.com/kjschnei001/jaeger/pkg/discovery"
 )
 
 // GRPCServiceConfig provides grpc service config

@@ -17,8 +17,8 @@ package app
 import (
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sampling/strategystore"
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/kjschnei001/jaeger/cmd/collector/app/sampling/strategystore"
+	"github.com/kjschnei001/jaeger/model"
 )
 
 // handleRootSpan returns a function that records throughput for root spans

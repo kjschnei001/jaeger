@@ -20,7 +20,7 @@ import (
 
 	"github.com/gogo/protobuf/jsonpb"
 
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2"
+	"github.com/kjschnei001/jaeger/proto-gen/api_v2"
 )
 
 // SamplingStrategyResponseToJSON defines the official way to generate

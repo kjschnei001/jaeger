@@ -23,7 +23,7 @@ import (
 
 	uatomic "go.uber.org/atomic"
 
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	"github.com/kjschnei001/jaeger/pkg/metrics"
 )
 
 // Consumer consumes data from a bounded queue

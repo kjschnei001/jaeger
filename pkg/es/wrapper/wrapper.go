@@ -20,7 +20,7 @@ import (
 
 	"github.com/olivere/elastic"
 
-	"github.com/jaegertracing/jaeger/pkg/es"
+	"github.com/kjschnei001/jaeger/pkg/es"
 )
 
 // This file avoids lint because the Id and Json are required to be capitalized, but must match an outside library.
